@@ -1,0 +1,261 @@
+@font-face {
+    font-family: Raleway;
+    src: url(font/Raleway-VariableFont_wght.ttf);
+  }
+
+  @font-face {
+    font-family: Raleway-Light;
+    src: url(font/Raleway-Light.ttf);
+}
+@font-face {
+    font-family: Raleway-Medium;
+    src: url(font/Raleway-Medium.ttf);
+}
+@font-face {
+    font-family: Raleway-ExtraBold;
+    src: url(font/Raleway-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Raleway-SemiBold;
+    src: url(font/Raleway-SemiBold.ttf);
+}
+@font-face {
+    font-family: Raleway-Bold;
+    src: url(font/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: Raleway-ExtraLight;
+    src: url(font/Raleway-ExtraLight.ttf);
+}
+@font-face {
+    font-family: Raleway-Thin;
+    src: url(font/Raleway-Thin.ttf);
+}
+
+* {
+    font-family: Raleway;
+}
+
+.first-page {
+    background-image: url(img/bg.jfif);
+    min-height: 100hv;
+    min-width: 98.9vw;
+    background-size: contain;   
+    background-position: center;
+    height: 100vh;
+}
+
+.nav-bar {
+    padding: 30px;
+    color: rgb(187, 187, 187);
+}
+
+.menus {
+    min-width: 350px;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.navbar-item:hover {
+    color: rgb(110, 110, 110);
+}
+
+.first-page-content {
+    padding-top: 85px;
+    height: 55vh;
+    color: white;
+    opacity: 90%;
+}
+
+.bottom-navigation {
+    bottom: 0;
+}
+
+.discover-me-bttn {
+    writing-mode: vertical-rl; 
+    color: white; 
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.social-media-icon {
+    height: 25px;
+    width: 25px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.about-me-page-picture-rectangle {
+    position: absolute;
+    padding-top: 50px;
+    z-index: 1;
+    padding-left: 25px;
+}
+
+.about-me-page-picture-image {
+    position: absolute;
+    padding-top: 70px;
+    z-index: 2;
+    padding-left: 130px;
+}
+
+.about-me-page-content {
+    padding-top: 95px;
+    padding-right: 70px;
+    margin-left: 80px;
+}
+
+.first-heading {
+    font-size: 27px;
+    font-weight: semibold;
+    padding-bottom: 0px;
+}
+
+.second-heading {
+    font-size: 49px;
+    font-weight: bold;
+    position: relative;
+    padding-left: 110px;
+    padding-top: 0px;
+}
+
+.about-me-page-title {
+    padding-left: 90px;
+}
+
+.about-me-page-text {
+    padding-top: 37px;
+}
+
+.cropped-image {
+    height: 30vh; 
+    background-size: cover;
+}
+
+.my-work {
+    color:white;
+    opacity: 90%;
+    font-size: 49px;
+    font-weight: semibold;
+    margin-left: 34.9vw;
+    padding-top: 2.5vw;
+    line-height: 0;
+}
+
+.some-awesome-projects {
+    color:white;
+    opacity: 90%;
+    font-size: 27px;
+    font-weight: thin;
+    margin-left: 38.5vw;
+    line-height: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 35px;
+}
+
+.grid-item {
+    background-color: #484848;
+    margin: 5px;
+    height: 22vh;
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+
+.rectangle {
+    height: 3.6vh;
+    width: 17vw;
+    background-color: #AB924F;
+    margin-left: 37vw;
+    margin-top: 2.5vh;
+}
+
+.work-container {
+    position: absolute;
+    margin-top: 7vh;
+}
+
+.get-in-touch {
+    background-color: #AB924F;
+    height: 5vh;
+    width: 21vw;
+    color:white;
+    opacity: 90%;
+    font-size: 27px;
+    padding-left: 0.4vw;
+    position: absolute;
+    margin-top: 5.5vh;
+    margin-left: 32.59vw;
+}
+
+.contact {
+    color: white;
+    opacity: 90%;
+    font-size: 49px;
+    font-weight: semibold;
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 42vw;
+}
+
+.social-media-icon-contact {
+    position:absolute;
+    margin-left: 30vw;
+    margin-right: 7vw;
+    margin-top: 41vh;
+    cursor: pointer;
+}
+
+.social-media-contact {
+    width: 42vw;
+}
+
+.contact-info {
+    width: 42vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 24.5vh;
+    padding-left: 14vw;
+    padding-bottom: 0;
+    position: absolute;
+}
+
+.contact-icon {
+    padding-right: 23vw;
+    padding-left: 0;
+}
+
+.contact-info-text {
+    width: 42vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 24.9vh;
+    padding-left: 18vw;
+    position: absolute;
+    font-size: 24px;
+    color: white;
+    opacity: 90%;
+}
+
+.contact-text {
+    padding-left: 0;
+}
+
+.contact-text p {
+    cursor: pointer;
+}
+
+.grid-item {
+    cursor: pointer;
+}
+
+.project-cls:hover {
+	opacity: 0.5;
+}

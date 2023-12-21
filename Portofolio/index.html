@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="script.js">
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <div class="first-page container">
+        <div class="nav-bar row">
+            <div class="col">
+                <img src="img/signature.png" style="width: 100px; height: 30px;">
+            </div>
+
+            <div class="col-4 menus">
+                <div class="row" style="padding-top: 10px; text-align: right;">
+                    <div class="col clickable navbar-item" style="color: #AD9450;">
+                        Home
+                    </div>
+                    <div class="col clickable navbar-item" style="min-width: 100px;" onclick="scrollDiscoverMe()">
+                        About me
+                    </div>
+                    <div class="col clickable navbar-item" onclick="scrollPortofolio()">
+                        Portfolio
+                    </div>
+                    <div class="col clickable navbar-item" onclick="scrollContact()">
+                        Contact
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row first-page-content">
+            <div class="col">
+                <div class="row justify-content-center"
+                    style="font-size: 36px; height: 20px; font-family: Raleway-Light;">I am</div>
+                <div class="row justify-content-center"
+                    style="font-size: 150px; height: 190px; font-family: Raleway-ExtraBold; padding-right: 180px; padding-top: 0; padding-bottom: 0;">
+                    CARLA</div>
+                <div class="row justify-content-center"
+                    style="font-size: 40px; height: 50px; padding-left: 460px; font-family: Raleway-Light;">a junior
+                </div>
+                <div class="row justify-content-center"
+                    style="font-size: 40px; padding-left: 580px; font-family: Raleway-Medium; color: #AD9450;">web
+                    designer</div>
+            </div>
+        </div>
+
+        <div class="bottom-navigation row justify-content-between">
+            <div class="social-media col-1" style="margin-left: 25px;">
+                <div class="row">
+                    <span>
+                        <a href="https://ro.wikipedia.org/wiki/Facebook"><img class="social-media-icon" src="img/facebook.png"></a>
+                    </span>
+                </div>
+                <div class="row">
+                    <span>
+                        <a href="https://ro.wikipedia.org/wiki/Instagram"><img class="social-media-icon" src="img/instagram.png"></a>
+                    </span>
+                </div>
+                <div class="row">
+                    <span>
+                        <a href="https://ro.pinterest.com/"><img class="social-media-icon" src="img/pinterest.png"></a>
+                    </span>
+                </div>
+                <div class="row">
+                    <span>
+                        <a href="https://twitter.com/?lang=ro"><img class="social-media-icon" src="img/twitter.png"></a>
+                </div>
+                <div class="row">
+                    <span>
+                        <a href="https://dribbble.com/"><img class="social-media-icon" src="img/dribble.png"></a>
+                    </span>
+                </div>
+            </div>
+
+            <div class="col-1 discover-me-bttn" style="text-align: end;">
+                <span onclick="scrollDiscoverMe()" style="cursor: pointer;">
+                    Discover me --->
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div id="about-me" style="height: 80vh; background: linear-gradient(to bottom right, rgba(29, 29, 28, 0.78),rgba(161, 162, 164, 0.12));">
+        <!-- about me -->
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="about-me-page-picture col-6">
+                    <div class="about-me-page-picture-rectangle">
+                        <img src="img/Rectangle 2.png" style="width: 550px; height: 410px;">
+                    </div>
+                    <div class="about-me-page-picture-image">
+                        <img src="img/me.jpg" style="width: 335px; height: 430px;">
+                    </div>
+                </div>
+                <div class="about-me-page-content col">
+                    <div class="about-me-page-title">
+                        <div class="first-heading">
+                            Who am I
+                        </div>
+                        <div class="second-heading">
+                            Hello
+                        </div>
+                    </div>
+                    <div class="about-me-page-text">
+                        My name is Carla, I am 19 years old and I live in Pitești, and in the autumn I will move to Cluj-Napoca to study mathematics
+                        and computer science at Babeș-Bolyai University, where I will specialize in several branches of computer science, including web development.
+                        I already have knowledge in this field, having as projects completed those attached to this portfolio and including this site.  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="my-work" style="height: 100vh; background: linear-gradient( rgba(29, 29, 28, 0.78), rgba(161, 162, 164, 0.12));">
+        <!-- my work -->
+        <div class="cropped-image" style="background-image: url(img/Group\ 1.png)">
+            <div class="work-container">
+                <div class="my-work">
+                    <p>My work<p>
+                </div>
+                <div class="rectangle">
+                </div>
+                <div class="some-awesome-projects">
+                    <p>Some awesome projects:)</p>
+                </div>
+            </div>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item"><img onclick="openInNewTab('img/atestat - proiect1.png')" class="project-cls" src="img/atestat - proiect1.png" style="width: 309px; height: 167px;" ></div>
+            <div class="grid-item"><img onclick="openInNewTab('img/atestat - proiect2.png')" class="project-cls" src="img/atestat - proiect2.png" style="width: 309px; height: 167px;" ></div>
+            <div class="grid-item"><img onclick="openInNewTab('img/atestat - proiect3.png')" class="project-cls" src="img/atestat - proiect3.png" style="width: 309px; height: 167px;" ></div>  
+            <div class="grid-item"><img onclick="openInNewTab('img/atestat - proiect4.png')" class="project-cls" src="img/atestat - proiect4.png" style="width: 309px; height: 167px;" ></div>
+            <div class="grid-item"><img onclick="openInNewTab('img/atestat - proiect5.png')" class="project-cls" src="img/atestat - proiect5.png" style="width: 309px; height: 167px;" ></div>
+            <div class="grid-item"><img onclick="openInNewTab('img/atestat - proiect6.png')" class="project-cls" src="img/atestat - proiect6.png" style="width: 309px; height: 167px;" ></div>   
+          </div>
+          
+    </div>
+
+    <div id="contact-me" style="height: 55vh; background: #232426;">
+        <!-- contact -->
+        <div class="get-in-touch">
+            <p>Get in touch...</p>
+        </div>
+        <div class="contact">
+            <p>Contact</p>
+        </div>
+        <div class="contact-info">
+            <div class="contact-icon">
+                <img class="mail-icon" src="img/mail.png">
+            </div>
+            <div class="contact-icon">
+                <img class="phone-icon" src="img/telephone.png">
+            </div>
+            <div class="contact-icon">
+                <img class="location-icon" src="img/placeholder.png">
+            </div>
+        </div>
+        <div class="contact-info-text">
+            <div class="contact-text">
+                <a href="mailto:cmirea30@gmail.com" style="text-decoration: none; color:white">cmirea30@gmail.com</a>
+            </div>
+            <div class="contact-text" style="padding-left: 10.3vw;">
+                <a href="tel:+40773944986" style="text-decoration: none; color:white">+40773944986</a>
+            </div>
+            <div class="contact-text" style="padding-left: 15.4vw; ">
+                <a href="https://www.google.com/maps/place/Pite%C8%99ti/@44.8559486,24.8034631,12z/data=!3m1!4b1!4m5!3m4!1s0x40b2bc8be0522b5b:0xf26c37a94326f876!8m2!3d44.8564798!4d24.8691824" style="text-decoration: none; color: white;"><p style="width: 20vw;">Romania - Arges - Pitesti</p></a>
+            </div>
+        </div>
+        <div>
+            <div class="social-media-contact row">
+                <div class="col">
+                    <span>
+                        <a href="https://ro.wikipedia.org/wiki/Facebook"><img class="social-media-icon-contact" src="img/facebook.png"></a>
+                    </span>
+                </div>
+                <div class="col">
+                    <span>
+                        <a href="https://ro.wikipedia.org/wiki/Instagram"><img class="social-media-icon-contact" src="img/instagram.png"></a>
+                    </span>
+                </div>
+                <div class="col">
+                    <span>
+                        <a href="https://ro.pinterest.com/"><img class="social-media-icon-contact" src="img/pinterest.png"></a>
+                    </span>
+                </div>
+                <div class="col">
+                    <span>
+                        <a href="https://twitter.com/?lang=ro"><img class="social-media-icon-contact" src="img/twitter.png"></a>
+                    </span>
+                </div>
+                <div class="col">
+                    <span>
+                        <a href="https://dribbble.com/"><img class="social-media-icon-contact" src="img/dribble.png"></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+</body>
+
+</html>
