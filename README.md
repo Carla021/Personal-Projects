@@ -17,7 +17,7 @@
   </li>
   <li>
     <a href="https://github.com/Carla021/Personal-Projects/tree/main/Portofolio">
-      :blond_haired_woman Portofolio
+      :blond_haired_woman: Portfolio
     </a>
   </li>
 </ul>
